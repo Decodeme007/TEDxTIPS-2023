@@ -20,7 +20,7 @@ body{
     height: 90px;
     display: flex;
     justify-content: space-between;
-    border:3px solid red;
+    box-shadow: 5px 5px 3px 2px rgb(244, 220, 220);
 }
 
 .snavbar-list{
@@ -82,13 +82,12 @@ body{
         color: red;
     }
 
-    /*  */
     .snav{
         position: relative;
     }
 
     .snavbar{
-        width: 100%;
+        width: 85%;
         height: 100vh;
         background-color: rgb(0, 0, 0);
         position:absolute;
@@ -108,9 +107,9 @@ body{
         pointer-events: none;
     }
 
-    /* .snavbar .snavbar-list .tips-nav-link:link,.snavbar .snavbar-list .tips-nav-link:visited{
+    .snavbar .snavbar-list .tips-nav-link:link,.snavbar .snavbar-list .tips-nav-link:visited{
         color:white;
-    } */
+    }
 
     .snavbar-list{
         flex-direction: column;
@@ -132,10 +131,4 @@ body{
         display: none;
     }
 }
-
-/* @@@@@@@@@@@@@@@@@@@@ /Navigation Bar @@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
-.func p{
-    height: 50%;
-    background-color: antiquewhite;
-}
+/* @@@@@@@@@@@@@@@@@@@@ /Navigation Bar End @@@@@@@@@@@@@@@@@@@@@@@@@@ */
