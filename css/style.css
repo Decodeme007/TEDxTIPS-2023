@@ -276,6 +276,76 @@ body{
   
   /* @@@@@@@@@@@@@@@@@@@@@@@@@ speakers End @@@@@@@@@@@@@@@@@@@@@@@@@*/
 
-
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@ ticket section start @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+#ticket{
+    background-image: url(https://www.tedxbvcoe.com/static/media/background.9baf20a6.svg);
+    background-image: cover;
+  }
+  #ticket h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: red;
+  }
   
+  #ticket-price-heading, #ticket-price-heading1, #ticket-price-heading2{
+    background-color: #fff7f7;
+    border-radius: 25px 25px 0px 0px;
+  }
+  
+  .ticket-price-heading{
+    color: red;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  #ticket-full-card{
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 520px;
+  }
+  #ticket a{
+    background-color: red!important;
+    border:none;
+    border-radius: 20px;
+    padding:7px 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+  }
+  #ticket a:hover{
+    background-color: #3f3f3f!important;
+  }
+  .about-card-3 .card{
+    width:30rem;
+    margin:0 auto;
+  }
+  .card{
+    width: 24rem;
+    margin:0 auto;
+  }
+
+@media (max-width:430px) {
+    #ticket .card{
+        width:20rem !important;
+        margin:0 auto !important;
+        position: relative;
+    }    
+    #ticket a{
+        position: absolute;
+        left:30px;
+        top:450px;
+        margin-right: auto !important;
+    }
+    .about-card-3 .card{
+        width: 20rem !important;
+        margin:0 auto !important;
+    }
+    .about-card-3 .card a{
+        margin-right: auto !important;
+    }
+
+}
+  /*@@@@@@@@@@@@@@@@@@@@@@@@@@ /ticket section End  @@@@@@@@@@@@@@@@@@@@@@@@@@*/
+  
+
   
