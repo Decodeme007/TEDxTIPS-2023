@@ -139,7 +139,7 @@ body{
         object-fit: cover;
         width:800px;
         height:350px;
-        z-index: -99;
+        /* z-index: -99; */
         /* border:2px solid blue; */
         margin-bottom: 0px;
         padding-bottom: 0px ;
