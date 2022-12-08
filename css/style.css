@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@ Navigation Bar @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.snav{
+    padding:24px 20px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    border:3px solid red;
+}
+
+.snavbar-list{
+    display: flex;
+    gap:30px;
+}
+
+.snavbar .snavbar-list li{
+    list-style: none;
+}
+
+.snavbar .snavbar-list .tips-nav-link:link,.snavbar .snavbar-list .tips-nav-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    transition: all 0.4s;
+}
+
+.snavbar .snavbar-list .tips-nav-link:hover,.snavbar .snavbar-list .tips-nav-link:active{
+    color: rgb(232, 129, 25);
+}
+
+.snavbar-list li::after{
+    content: '';
+    height: 7px;
+    width: 0;
+    background-color: red;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.snavbar-list li:hover::after{
+    width: 100%;
+    transition: width 0.5s linear;
+    text-align: center;
+}
+
+/* ============================navigation for mobile======================= */
+.snav-mobile-nav{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.mobile-snav-icon2{
+    display: none;
+}
+
+/* ============================navigation responsive for mobile======================= */
+@media (max-width:980px) {
+
+    .snav-mobile-nav{
+        display: block;
+        z-index: 99;
+        font-size: larger;
+        font-weight: 700;
+        color: red;
+    }
+
+    /*  */
+    .snav{
+        position: relative;
+    }
+
+    .snavbar{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        position:absolute;
+        top:0;
+        right:0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* transition */
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    /* .snavbar .snavbar-list .tips-nav-link:link,.snavbar .snavbar-list .tips-nav-link:visited{
+        color:white;
+    } */
+
+    .snavbar-list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .snav-active .snavbar{
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .snav-active .snav-mobile-nav .mobile-snav-icon2{
+        display: block;
+    }
+
+    .snav-active .snav-mobile-nav .mobile-snav-icon1{
+        display: none;
+    }
+}
+
+/* @@@@@@@@@@@@@@@@@@@@ /Navigation Bar @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.func p{
+    height: 50%;
+    background-color: antiquewhite;
+}
