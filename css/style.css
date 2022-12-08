@@ -117,7 +117,7 @@ body{
     }
 
     .snav-active .snavbar{
-        transform: translateX(0%);
+        transform: translateX(0);
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
