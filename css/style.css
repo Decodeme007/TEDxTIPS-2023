@@ -343,9 +343,113 @@ body{
     .about-card-3 .card a{
         margin-right: auto !important;
     }
-
 }
-  /*@@@@@@@@@@@@@@@@@@@@@@@@@@ /ticket section End  @@@@@@@@@@@@@@@@@@@@@@@@@@*/
+ /*@@@@@@@@@@@@@@@@@@@@@@@@@@ /ticket section End  @@@@@@@@@@@@@@@@@@@@@@@@@@*/
   
 
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@ partners section start @@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+#partners{
+    background-image: url(https://www.tedxbvcoe.com/static/media/background.9baf20a6.svg);
+  }
+  
+  #partners h2{
+    font-size:40px;
+    font-weight: 600;
+    color:red;
+  }
+  #partners h3{
+    font-weight: 600;
+  }
+  #partners .card{
+    border:3px solid red;
+  }
+
+  /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@ /partners section End  @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+  
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Reason to partner us  @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+#reson-to-partner h1{
+    color: red;
+    font-weight: 600;
+  }
+  #reson-to-partner img{
+    width: 100px;
+    border:3px solid red;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  #reson-to-partner h5{
+    font-size:30px;
+    color:red;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  #reson-to-partner-card, #reson-to-partner-card2, #reson-to-partner-card3{
+    border:none;
+  }  
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@ /Reason to partner us End  @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/* <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ faq section start @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@--> */
+#faq{
+    background-image: url(https://www.tedxbvcoe.com/static/media/background.d5366393.svg);
+  }
+  #faq .accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+/* <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ faq section End @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@--> */
+  
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@meet core team start @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+#meet-teams img{
+    border-radius: 50%;
+    border:3px solid red;
+    width: 180px;
+  }
+  #meet-teams .card{
+    border:none;
+  }
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@ meet core team end  @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@contact start  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+#contact{
+    background-image: url(https://www.tedxbvcoe.com/static/media/background.d5366393.svg);
+  }
+  #contact h1{
+    font-size: 50px;
+    font-weight: 600;
+  }
+  #contact button{
+    border:3px solid black;
+    padding:8px 19px;
+    border-radius: 19px;
+    background-color: white;
+  }
+  #contact button:hover{
+    color:white;
+    background-color: #222;
+  }
+  /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ contact end @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  
+  /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer section start  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+#footer-section button{
+    border:2px solid transparent;
+    color:white;
+    background-color: red;
+    padding:8px 22px;
+    border-radius: 20px;
+  }
+  
+  #footer-section button:hover{
+    background-color: white;
+    border:3px solid red;
+    color:red;
+  }
+  
+  .footer-icons a i{
+    font-size: 30px;
+  }
+  /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer section End  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
   
