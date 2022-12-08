@@ -132,3 +132,150 @@ body{
     }
 }
 /* @@@@@@@@@@@@@@@@@@@@ /Navigation Bar End @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* @@@@@@@@@@@@@@@@@@@@ /Home section started @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media (max-width:480px){
+    #home .home_video{
+        object-fit: cover;
+        width:800px;
+        height:350px;
+        z-index: -99;
+        /* border:2px solid blue; */
+        margin-bottom: 0px;
+        padding-bottom: 0px ;
+    }
+}
+
+#home{
+    background-image: url(https://www.tedxbvcoe.com/static/media/background.9baf20a6.svg);
+    background-image: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+@media (max-width: 868px) {
+    #home{
+     background-image: url(https://www.tedxbvcoe.com/static/media/background.9baf20a6.svg) !important;
+      background-image: no-repeat !important;
+      background-position: top left !important;
+      background-size: cover !important;
+}
+
+    .home_cal{
+        margin-top: 0px I !important;
+        padding-top: 0px !important;
+        /* border:2px solid red; */
+    }
+}    
+
+.home_cal_icon, .home_loc_icon{
+    font-size: 40px;
+    color: #fa3151;
+}
+
+.home_cal h3{
+    /* border:2px solid red; */
+    font-weight: bolder;
+}
+.home_loc h3{
+    /* border:2px solid green; */
+    font-weight: bolder;
+}
+/* @@@@@@@@@@@@@@@@@@@@ /Home section End @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+/* @@@@@@@@@@@@@@@@@@@@ About section Start @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+#about-images{
+    border: 4px solid red;
+    margin: 30px 0px;
+    width: 380px;
+    height: 210px;
+  }
+  
+  #about-content p{
+    text-align: justify;
+    text-indent: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 3px;
+    text-shadow: 1px 1px 1px rgb(248, 220, 220);
+  }
+  
+  .about-button-cust{
+    border:3px solid transparent!important;
+    margin-left:10px !important;
+    background-color: #3f3f3f !important;
+    color:white !important;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .about-button-cust:hover{
+    background-color: red!important;
+  }
+@media (max-width: 340px) {
+ .about-button-cust{
+     border:3px solid transparent!important;
+     margin-left:5px !important;
+     background-color: #3f3f3f !important;
+     color:white !important;
+     font-size: 15px;
+     font-weight: 400;
+   }    
+}  
+/* @@@@@@@@@@@@@@@@@@@@ /About section End @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@ speakers start @@@@@@@@@@@@@@@@@@@@@@@@@@*/
+#speaker{
+    background-image: url(https://www.tedxbvcoe.com/static/media/speakers-background.6516df3d.svg);
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  
+  @media (max-width:720px) {
+    #speaker{
+      background-image: url(https://www.tedxbvcoe.com/static/media/speakers-background.6516df3d.svg);
+      background-position: top right;
+      background-size: cover;    
+    }
+  }
+  
+  @media (max-width:430px) {
+    #speaker{
+      background-image: url(https://www.tedxbvcoe.com/static/media/speakers-background.6516df3d.svg);
+      background-position: top 10% right 30% !important;
+      background-size: cover;    
+      /* margin-left: 40px; */
+    }
+  }
+  
+  #speaker h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+    padding:20px;
+  }
+  
+  #speaker button{
+    margin-bottom:50px;
+    background-color: red;
+    border-radius: 20px;
+    padding:8px 22px;
+    color:white;
+    border:none;
+  }
+  #speaker button:hover{
+    background-color: white;
+    color: red;
+    border:2px solid red;
+    font-size:15px;
+    font-weight: 500;
+  }
+  
+  /* @@@@@@@@@@@@@@@@@@@@@@@@@ speakers End @@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+  
+  
