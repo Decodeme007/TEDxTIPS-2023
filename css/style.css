@@ -231,7 +231,7 @@ body{
 #speaker{
     background-image: url(https://www.tedxbvcoe.com/static/media/speakers-background.6516df3d.svg);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment:fixed;
   }
   
   @media (max-width:720px) {
