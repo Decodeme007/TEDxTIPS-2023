@@ -318,20 +318,22 @@ body{
     height: 520px;
     position: relative;
   }
-  #ticket a{
-    background-color: red!important;
-    border:none;
+  #ticket .ticket-buy-tag{
+    position: absolute;
+    top:90%;
+    left:60%;
+    transform: translate(-50%,-50%);
     display: block;
+    width: 100%;
+  }
+  #ticket a{
+    border:none;
+    background-color: red!important;
     border-radius: 20px;
-    padding:7px 25px;
+    padding:7px 15px;
     color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 20px;
-    border: 2px solid green;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50vh,-50vh);
   }
   #ticket a:hover{
     background-color: #3f3f3f!important;
@@ -351,12 +353,6 @@ body{
         margin:0 auto !important;
         position: relative;
     }    
-    #ticket a{
-        position: absolute;
-        left:30px;
-        top:450px;
-        margin-right: auto !important;
-    }
     .about-card-3 .card{
         width: 20rem !important;
         margin:0 auto !important;
