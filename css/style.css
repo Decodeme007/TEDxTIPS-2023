@@ -316,15 +316,22 @@ body{
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 520px;
+    position: relative;
   }
   #ticket a{
     background-color: red!important;
     border:none;
+    display: block;
     border-radius: 20px;
     padding:7px 25px;
     color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 20px;
+    border: 2px solid green;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50vh,-50vh);
   }
   #ticket a:hover{
     background-color: #3f3f3f!important;
