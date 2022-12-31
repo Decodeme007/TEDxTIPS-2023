@@ -17,7 +17,7 @@ body{
 /* preloader  */
 #preloader{
   background: rgb(13, 13, 13) url("/images/loading-pre.gif") no-repeat center;
-  background-size: 40%;
+  background-size: 100%;
   height: 100vh;
   width: 100%;
   position: fixed;
